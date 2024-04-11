@@ -46,7 +46,7 @@ namespace WPFApp
 			// ¿Que es un delegado? Apuntador a funciones.
 			// Por ejemplo:Action y Func
 			Action Code = new Action(ShowMesage);
-			T=new Task(Code);
+			T = new Task(Code);
 			Task T2 = new Task(delegate
 			{
 				MessageBox.Show("Ejecutando una tarea en un metodo anonimo.");
